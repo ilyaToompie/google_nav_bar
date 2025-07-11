@@ -38,7 +38,7 @@ class GNav extends StatefulWidget {
     this.textSize,
   }) : super(key: key);
 
-  final List<GButton> tabs;
+  final List<Widget> tabs;
   final int selectedIndex;
   final ValueChanged<int>? onTabChange;
   final double gap;
